@@ -1,0 +1,45 @@
+name = ''
+
+description = ''
+
+references = [
+'',
+]
+
+fsf = true/false
+osi = true/false
+gpl_compatible = true/false
+copyleft = false/'weak'/'strong'
+dynamic_linking = true/'copyleft'
+static_linking = true/'copyleft'
+intended_for = 'software'/'media'/'font'/'data'
+
+# 'Advertising',
+# 'Commercial use',
+# 'Disclose source',
+# 'Distribution',
+# 'Liability',
+# 'License and copyright notice',
+# 'Modification',
+# 'Network use is distribution',
+# 'Nuclear use',
+# 'Patent use',
+# 'Private use',
+# 'Same license',
+# 'State changes',
+# 'Warranty',
+
+permissions = [
+'',
+]
+
+conditions = [
+'',
+]
+
+limitations = [
+'',
+]
+
+license = '''
+'''

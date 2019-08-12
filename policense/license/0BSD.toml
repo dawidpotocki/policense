@@ -1,0 +1,38 @@
+name = 'BSD Zero Clause License'
+
+description = 'The BSD Zero Clause license goes further than the BSD 2-Clause to allow you unlimited freedom. Despite its name, BSD Zero Clause is an alteration of the ISC License, and is not textually derived from licenses in the BSD family.'
+
+fsf = false
+osi = true
+gpl_compatible = true
+copyleft = false
+dynamic_linking = true
+static_linking = true
+intended_for = 'software'
+
+permissions = [
+'Commercial use',
+'Distribution',
+'Modification',
+'Private use',
+]
+
+limitations = [
+'Liability',
+'Warranty',
+]
+
+license = '''
+Copyright (c) [year] [fullname][email]
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+'''

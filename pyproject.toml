@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "policense"
+version = "0.1.5"
+description = "Licensing, simplified."
+license = "ISC"
+authors = ["Dawid Potocki <dpot@disroot.org>"]
+readme = "README.md"
+repository = "https://github.com/dawidpotocki/policense"
+classifiers = [
+	'License :: OSI Approved :: ISC License (ISCL)',
+	'Intended Audience :: Developers',
+	'Operating System :: OS Independent',
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+prompt-toolkit = "^2.0"
+toml = "^0.10.0"
+licensename = "^0.4.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+
+[tool.poetry.scripts]
+policense = "policense.policense:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

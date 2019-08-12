@@ -1,0 +1,36 @@
+name = 'FSF All Permissive License'
+
+description = 'Permissive, short, simple license from FSF? Wait, what?'
+
+fsf = true
+osi = false
+gpl_compatible = true
+copyleft = false
+dynamic_linking = true
+static_linking = true
+intended_for = 'software'
+
+permissions = [
+'Commercial use',
+'Distribution',
+'Modification',
+'Private use',
+]
+
+conditions = [
+'License and copyright notice',
+]
+
+limitations = [
+'Liability',
+'Warranty',
+]
+
+license = '''
+Copyright (c) [year], [fullname][email]
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+'''

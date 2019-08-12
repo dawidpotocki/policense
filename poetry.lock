@@ -1,0 +1,108 @@
+[[package]]
+category = "dev"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+name = "appdirs"
+optional = false
+python-versions = "*"
+version = "1.4.3"
+
+[[package]]
+category = "dev"
+description = "Classes Without Boilerplate"
+name = "attrs"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "19.1.0"
+
+[[package]]
+category = "dev"
+description = "The uncompromising code formatter."
+name = "black"
+optional = false
+python-versions = ">=3.6"
+version = "18.9b0"
+
+[package.dependencies]
+appdirs = "*"
+attrs = ">=17.4.0"
+click = ">=6.5"
+toml = ">=0.9.4"
+
+[[package]]
+category = "dev"
+description = "Composable command line interface toolkit"
+name = "click"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "7.0"
+
+[[package]]
+category = "main"
+description = "Find a license name from a license file."
+name = "licensename"
+optional = false
+python-versions = "*"
+version = "0.4.2"
+
+[package.dependencies]
+unidecode = ">=0.04.20"
+
+[[package]]
+category = "main"
+description = "Library for building powerful interactive command lines in Python"
+name = "prompt-toolkit"
+optional = false
+python-versions = "*"
+version = "2.0.9"
+
+[package.dependencies]
+six = ">=1.9.0"
+wcwidth = "*"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[[package]]
+category = "main"
+description = "Python Library for Tom's Obvious, Minimal Language"
+name = "toml"
+optional = false
+python-versions = "*"
+version = "0.10.0"
+
+[[package]]
+category = "main"
+description = "ASCII transliterations of Unicode text"
+name = "unidecode"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.1.1"
+
+[[package]]
+category = "main"
+description = "Measures number of Terminal column cells of wide-character codes"
+name = "wcwidth"
+optional = false
+python-versions = "*"
+version = "0.1.7"
+
+[metadata]
+content-hash = "e6ba7e24fb23bfc7923ff1704c78744ff1e152c59ec43a630d0801a7a2f7da9e"
+python-versions = "^3.6"
+
+[metadata.hashes]
+appdirs = ["9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92", "d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"]
+attrs = ["69c0dbf2ed392de1cb5ec704444b08a5ef81680a61cb899dc08127123af36a79", "f0b870f674851ecbfbbbd364d6b5cbdff9dcedbc7f3f5e18a6891057f21fe399"]
+black = ["817243426042db1d36617910df579a54f1afd659adb96fc5032fcf4b36209739", "e030a9a28f542debc08acceb273f228ac422798e5215ba2a791a6ddeaaca22a5"]
+click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
+licensename = ["24f46f5656d4be21c694ba5b4c00cc1a3473474368713734ec7d466ef7e2e9a1", "852eb790041dd88c3ae0ab9b3e9da0779250be9fe5cf84565c0c806558323054"]
+prompt-toolkit = ["11adf3389a996a6d45cc277580d0d53e8a5afd281d0c9ec71b28e6f121463780", "2519ad1d8038fd5fc8e770362237ad0364d16a7650fb5724af6997ed5515e3c1", "977c6583ae813a37dc1c2e1b715892461fcbdaa57f6fc62f33a528c4886c8f55"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
+toml = ["229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c", "235682dd292d5899d361a811df37e04a8828a5b1da3115886b73cf81ebc9100e", "f1db651f9657708513243e61e6cc67d101a39bad662eaa9b5546f789338e07a3"]
+unidecode = ["1d7a042116536098d05d599ef2b8616759f02985c85b4fef50c78a5aaf10822a", "2b6aab710c2a1647e928e36d69c21e76b453cd455f4e2621000e54b2a9b8cce8"]
+wcwidth = ["3df37372226d6e63e1b1e1eda15c594bca98a22d33a23832a90998faa96bc65e", "f4ebe71925af7b40a864553f761ed559b43544f8f71746c2d756c7fe788ade7c"]
